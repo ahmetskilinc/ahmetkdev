@@ -1,5 +1,4 @@
-import React from "react";
-import { useRef, useEffect } from "react";
+import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
 import { TweenMax } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
