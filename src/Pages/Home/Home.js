@@ -3,7 +3,6 @@ import { Hero, ScrollDownIndicator, MyWork, Life, ContactMe } from "../../Compon
 
 export const Home = () => (
 	<>
-		<p>TESTING</p>
 		<ScrollDownIndicator />
 		<Hero />
 		<ContactMe />
