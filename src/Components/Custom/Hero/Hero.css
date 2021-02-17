@@ -1,0 +1,79 @@
+.hero {
+	overflow: hidden;
+	min-height: 500px;
+	height: 100vh;
+	width: 100vw;
+	color: #e9e9e9;
+	display: flex;
+	text-align: center;
+}
+
+.hero > .image-cover {
+	opacity: 1;
+	z-index: -1;
+	height: 100%;
+	width: 50%;
+	background-position: center center;
+	background-size: cover;
+}
+
+.hero > .image-cover > .image-overlay {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.hero > .hero-info {
+	background: linear-gradient(135deg, #453435, #4e4b51);
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.hero > .hero-info > .heading {
+	margin: 14px;
+	opacity: 1;
+	font-size: 2rem;
+	font-weight: 300;
+	letter-spacing: 4px;
+	color: #e9e9e9;
+}
+
+.hero > .hero-info > .hero-subheading {
+	margin: 14px;
+	font-weight: 300;
+	opacity: 1;
+	letter-spacing: 4px;
+	color: #e9e9e9;
+	margin: 0;
+	font-size: 1.1rem;
+	letter-spacing: 0;
+	max-width: 410px;
+}
+
+@media only screen and (max-width: 400px) {
+	.hero > .hero-info > .heading {
+		font-size: 1.6rem;
+	}
+	.hero > .hero-info > .hero-subheading {
+		font-size: 0.9rem;
+		max-width: 328px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.hero {
+		flex-direction: column-reverse;
+	}
+	.hero > .image-cover {
+		height: 50%;
+		width: 100%;
+	}
+	.hero > .hero-info {
+		width: 100%;
+		height: 50%;
+	}
+}

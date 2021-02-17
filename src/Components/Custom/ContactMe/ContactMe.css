@@ -1,0 +1,17 @@
+.contactme {
+	margin-bottom: 50px;
+}
+.contactme > .cta-container {
+	text-align: center;
+}
+.contactme > .cta-container > a {
+	border: 1px solid blue;
+	padding: 8px 30px;
+	border-radius: 4px;
+	margin: 0 12px;
+	text-decoration: none;
+}
+.contactme > .cta-container > a:hover {
+	border-color: red;
+	color: red;
+}

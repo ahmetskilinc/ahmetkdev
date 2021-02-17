@@ -1,0 +1,36 @@
+.life {
+	max-width: 1020px;
+	margin: 64px auto 0;
+}
+
+.life > div {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+@media only screen and (max-width: 720px) {
+	.life > div {
+		grid-template-columns: 1fr;
+	}
+}
+
+.life > div > .experience,
+.life > div > .education {
+	display: block;
+}
+
+.life > div > .experience > p,
+.life > div > .education > p {
+	font-size: 16px;
+}
+
+.life > div > .experience > h3,
+.life > div > .education > h3 {
+	font-size: 18px;
+}
+
+@media only screen and (max-width: 1020px) {
+	.life {
+		padding: 0 24px;
+	}
+}
