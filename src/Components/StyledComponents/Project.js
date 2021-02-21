@@ -116,6 +116,7 @@ export const Project = ({ src, alt, children, reverse }) => {
 	useEffect(() => {
 		TweenMax.from(project, {
 			...animation,
+			y: "120px",
 			scrollTrigger: {
 				trigger: project,
 			},
