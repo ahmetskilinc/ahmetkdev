@@ -8,30 +8,30 @@
 	},
 	"license": "MIT",
 	"dependencies": {
-		"@fortawesome/fontawesome-svg-core": "^1.2.34",
-		"@fortawesome/free-solid-svg-icons": "^5.15.2",
+		"@fortawesome/fontawesome-svg-core": "^1.2.35",
+		"@fortawesome/free-solid-svg-icons": "^5.15.3",
 		"@fortawesome/react-fontawesome": "^0.1.14",
-		"gsap": "^3.6.0",
-		"react": "^17.0.1",
-		"react-dom": "^17.0.1",
+		"gsap": "^3.6.1",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
 		"react-router-dom": "^5.2.0",
-		"styled-components": "^5.2.1"
+		"styled-components": "^5.3.0"
 	},
 	"devDependencies": {
 		"@parcel/optimizer-cssnano": "^2.0.0-nightly.599",
 		"@parcel/optimizer-htmlnano": "^2.0.0-nightly.599",
 		"@parcel/packager-css": "^2.0.0-nightly.599",
 		"@parcel/packager-html": "^2.0.0-nightly.599",
-		"@parcel/packager-raw-url": "^2.0.0-nightly.2221",
+		"@parcel/packager-raw-url": "^2.0.0-nightly.2295",
 		"@parcel/transformer-css": "^2.0.0-nightly.599",
 		"@parcel/transformer-html": "^2.0.0-nightly.599",
-		"@parcel/transformer-image": "^2.0.0-nightly.2221",
+		"@parcel/transformer-image": "^2.0.0-nightly.2295",
 		"@parcel/transformer-postcss": "^2.0.0-nightly.599",
 		"@parcel/transformer-posthtml": "^2.0.0-nightly.599",
-		"@parcel/transformer-webmanifest": "^2.0.0-nightly.2221",
+		"@parcel/transformer-webmanifest": "^2.0.0-nightly.2295",
 		"babel-preset-nano-react-app": "^0.1.0",
-		"parcel": "^2.0.0-alpha.3.2",
-		"postcss": "^8.2.6"
+		"parcel": "^2.0.0-beta.2",
+		"postcss": "^8.2.15"
 	},
 	"babel": {
 		"presets": [

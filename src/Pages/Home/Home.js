@@ -5,8 +5,8 @@ export const Home = () => (
 	<>
 		<ScrollDownIndicator />
 		<Hero />
-		<ContactMe />
 		<MyWork />
 		<Life />
+		<ContactMe />
 	</>
 );
